@@ -1,0 +1,64 @@
+body{
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  background-color: #0C1727;
+  color: white;
+}
+.container{
+  padding: 20px 200px;
+}
+/* header{
+  font-weight: 700;
+} */
+
+
+h1{
+  font-weight: 700;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+.bar{
+  background-color: #E51DB9;
+  height: 5px;
+  width: inherit;
+  border-radius: 30px
+
+}
+
+/* .circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: green;
+} */
+
+.inline{
+  display: inline-block;
+}
+
+.para{
+  margin-left: 50px;
+}
+/* .in{
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #0C1727;
+} */
+
+/*            ipad and other bigger screens responsive           */
+@media only screen and (max-width: 900px) {
+  .container {
+    padding: 20px 75px;
+  }
+}
+
+/*            mobile responsive           */
+@media only screen and (max-width: 500px) {
+  .container {
+    padding: 20px 20px;
+  }
+}
