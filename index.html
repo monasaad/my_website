@@ -4,176 +4,221 @@
 <head>
     <meta charset="utf-8">
     <title>Mona Saad</title>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@300;700&display=swap"
-          rel="stylesheet">
+    
+    
+    <!-- bootsrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    
+    <!-- font -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@300;700&display=swap"
+    rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+     -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+     
+<!-- css -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
-<div class="container">
-<header>
-    <h1>Mona Code, Design & Play</h1>
-    <div class="bar"></div>
+<header style="top:0; position: fixed; background-color: white; border-bottom: 3px solid lightgray; width:73%; padding: 20px;">
+    <a href="">Mona Alotaibi</a>
+        <span style="float: right;">
+            <a href="" >About me</a>
+            <a href="" class="left_margin">My work</a>
+            <a href="" class="left_margin">Contact</a>
+        </span>
+    <!-- <h1>Mona Code, Design & Play</h1>
+    <div class="bar"></div> -->
 </header>
 
-<section id="basic" class="basic">
-    <h2>Hi there👋🏼</h2>
-    <p>I’m Mona Saad Alotaibi, a fresh computer science graduate from IAU Dammam, Saudi Arabia.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.</p>
-    <p>Scroll down to know me more!</p>
-    <!--<h1>
-        Mona
-        <a href="" class="typewrite" data-period="2000" data-type='["Code,", "Design,", "Play," ]'>
-            <span class="wrap"></span>
-        </a>
-    </h1>
-    <script>var TxtType = function(el, toRotate, period) {
-        this.toRotate = toRotate;
-        this.el = el;
-        this.loopNum = 0;
-        this.period = parseInt(period, 10) || 2000;
-        this.txt = '';
-        this.tick();
-        this.isDeleting = false;
-    };
+    <section id="brief" style="margin-top: 250px; margin-bottom: 150px;">
+        <h1>Hi, I'm Mona 😊</h1>
+        <h1>UI/UX designer, </h1>
+        <h1>Front End Developer</h1>
+        <h1>Based in Saudi Arabia</h1>
+    </section>
 
-    TxtType.prototype.tick = function() {
-        var i = this.loopNum % this.toRotate.length;
-        var fullTxt = this.toRotate[i];
+    <section>
+        <h2>My work</h2>
 
-        if (this.isDeleting) {
-            this.txt = fullTxt.substring(0, this.txt.length - 1);
-        } else {
-            this.txt = fullTxt.substring(0, this.txt.length + 1);
-        }
+        <div style="display: flex; justify-content: space-between; ">
+            <span style="text-align: center;">
+                <a href="/work.html">
+                    <div style="width: 350px; height: 250px; background-color: gray;"></div>
+                    <h3>GYM business</h3>
+                </a>
+            </span>
+            <span>        
+                <div style="width: 350px; height: 250px; background-color: gray;"></div>
+            </span>
+            <span>        
+                <div style="width: 350px; height: 250px; background-color: gray;"></div>
+            </span>
 
-        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-
-        var that = this;
-        var delta = 200 - Math.random() * 100;
-
-        if (this.isDeleting) { delta /= 2; }
-
-        if (!this.isDeleting && this.txt === fullTxt) {
-            delta = this.period;
-            this.isDeleting = true;
-        } else if (this.isDeleting && this.txt === '') {
+            
+        </div>
+    </section>
+    <section id="basic" class="basic">
+        <h2>Hi there👋🏼</h2>
+        <p>I’m Mona Saad Alotaibi, a fresh computer science graduate from IAU Dammam, Saudi Arabia.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum.</p>
+        <p>Scroll down to know me more!</p>
+        <!--<h1>
+            Mona
+            <a href="" class="typewrite" data-period="2000" data-type='["Code,", "Design,", "Play," ]'>
+                <span class="wrap"></span>
+            </a>
+        </h1>
+        <script>var TxtType = function(el, toRotate, period) {
+            this.toRotate = toRotate;
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 10) || 2000;
+            this.txt = '';
+            this.tick();
             this.isDeleting = false;
-            this.loopNum++;
-            delta = 500;
-        }
+        };
 
-        setTimeout(function() {
-            that.tick();
-        }, delta);
-    };
+        TxtType.prototype.tick = function() {
+            var i = this.loopNum % this.toRotate.length;
+            var fullTxt = this.toRotate[i];
 
-    window.onload = function() {
-        var elements = document.getElementsByClassName('typewrite');
-        for (var i=0; i<elements.length; i++) {
-            var toRotate = elements[i].getAttribute('data-type');
-            var period = elements[i].getAttribute('data-period');
-            if (toRotate) {
-                new TxtType(elements[i], JSON.parse(toRotate), period);
+            if (this.isDeleting) {
+                this.txt = fullTxt.substring(0, this.txt.length - 1);
+            } else {
+                this.txt = fullTxt.substring(0, this.txt.length + 1);
             }
-        }
-        // INJECT CSS
-        var css = document.createElement("style");
-        css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-        document.body.appendChild(css);
-    };</script>
-    -->
-</section>
 
-<section id="edu" class="edu">
-    <h2>My Education</h2>
-    <section id="edu-p">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.</p>
-    <!--    <p>A fresh computer science gradue from IAU Dammam, Saudi Arabia. and this one side of me 👩🏻.-->
-    <!--        I got an acceptence to publish two papers, I’ll update this section once the papers are published 🎉</p>-->
+            this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+            var that = this;
+            var delta = 200 - Math.random() * 100;
+
+            if (this.isDeleting) { delta /= 2; }
+
+            if (!this.isDeleting && this.txt === fullTxt) {
+                delta = this.period;
+                this.isDeleting = true;
+            } else if (this.isDeleting && this.txt === '') {
+                this.isDeleting = false;
+                this.loopNum++;
+                delta = 500;
+            }
+
+            setTimeout(function() {
+                that.tick();
+            }, delta);
+        };
+
+        window.onload = function() {
+            var elements = document.getElementsByClassName('typewrite');
+            for (var i=0; i<elements.length; i++) {
+                var toRotate = elements[i].getAttribute('data-type');
+                var period = elements[i].getAttribute('data-period');
+                if (toRotate) {
+                    new TxtType(elements[i], JSON.parse(toRotate), period);
+                }
+            }
+            // INJECT CSS
+            var css = document.createElement("style");
+            css.type = "text/css";
+            css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+            document.body.appendChild(css);
+        };</script>
+        -->
     </section>
-</section>
 
-<section id="exp" class="exp">
-    <h2>My Previous Experince</h2>
-    <section id="exp-p">
-    <p>I have worked in <em>Gulf Union Cooperative Insurance Co</em>. as a <b>data entry</b> position for a period of a month, during
-        that period, I have learned about insurance companies in the motors section particularly. In my first week, they
-        introduced the insurance company generally, which gave me a big idea of how the insurance works. I was assigned
-        in the motors section, where I was able to see how the insurance company contacts Najm -a company that controls
-        the operations within insurance companies-, evaluate and resolve the customers' claims. Mainly, I was assigned
-        to enter the accident report by extracting the data from many images of different formats, then upload the data
-        into the company's database. </p>
-    <p>I have worked at <em> ISCOSA </em>for a period of a month as a <b>software programmer</b>. I was assigned to create a desktop
-        application to reduce the repetitive routine work of an HR employee. During that period I have given the major
-        idea of an HR section, also about the ISCOSA company. That thing helped me to write the application and give a
-        customized experience using java language. I was pleased it helped and support the HR employee's work and got
-        delighted by them.</p>
-    <p>In order to complete my bachelor's degree, I had to have a COOP. I got an offer to complete the COOP at <em>Imam
-        Abdulrahman Bin Faisal University</em> in Alumni center as a <b>full-stack developer.</b> </p>
-    <!-- <div class="">
-      <div class="circle">
-        <span class="in"><p>2017</p></span>
-        <p>2017</p>
-      </div>
-      <div class="timeline inline">
-
-      </div>
-      <div class="para inline">
-          </div>
-    </div> -->
+    <section id="edu" class="edu">
+        <h2>My Education</h2>
+        <section id="edu-p">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum.</p>
+        <!--    <p>A fresh computer science gradue from IAU Dammam, Saudi Arabia. and this one side of me 👩🏻.-->
+        <!--        I got an acceptence to publish two papers, I’ll update this section once the papers are published 🎉</p>-->
+        </section>
     </section>
-</section>
 
-<section id="portfolio" class="portfolio">
-    <h2>My Portofilo</h2>
-    <section id="portfolio-p">
-    <ol>
-        <li>my graducation project</li>
+    <section id="exp" class="exp">
+        <h2>My Previous Experince</h2>
+        <section id="exp-p">
+        <p>I have worked in <em>Gulf Union Cooperative Insurance Co</em>. as a <b>data entry</b> position for a period of a month, during
+            that period, I have learned about insurance companies in the motors section particularly. In my first week, they
+            introduced the insurance company generally, which gave me a big idea of how the insurance works. I was assigned
+            in the motors section, where I was able to see how the insurance company contacts Najm -a company that controls
+            the operations within insurance companies-, evaluate and resolve the customers' claims. Mainly, I was assigned
+            to enter the accident report by extracting the data from many images of different formats, then upload the data
+            into the company's database. </p>
+        <p>I have worked at <em> ISCOSA </em>for a period of a month as a <b>software programmer</b>. I was assigned to create a desktop
+            application to reduce the repetitive routine work of an HR employee. During that period I have given the major
+            idea of an HR section, also about the ISCOSA company. That thing helped me to write the application and give a
+            customized experience using java language. I was pleased it helped and support the HR employee's work and got
+            delighted by them.</p>
+        <p>In order to complete my bachelor's degree, I had to have a COOP. I got an offer to complete the COOP at <em>Imam
+            Abdulrahman Bin Faisal University</em> in Alumni center as a <b>full-stack developer.</b> </p>
+        <!-- <div class="">
+        <div class="circle">
+            <span class="in"><p>2017</p></span>
+            <p>2017</p>
+        </div>
+        <div class="timeline inline">
+
+        </div>
+        <div class="para inline">
+            </div>
+        </div> -->
+        </section>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>My Portofilo</h2>
+        <section id="portfolio-p">
         <ol>
-            <li>UI Design</li>
-            <li>github</li>
+            <li>my graducation project</li>
+            <ol>
+                <li>UI Design</li>
+                <li>github</li>
+            </ol>
+            <li>CCSIT workshop mangment project</li>
         </ol>
-        <li>CCSIT workshop mangment project</li>
-    </ol>
 
-    <!-- <p>1. my graducation project</p>
-    <p>UI Design</p>
-    <p>github</p>
+        <!-- <p>1. my graducation project</p>
+        <p>UI Design</p>
+        <p>github</p>
 
-    <p>2. CCSIT workshop mangment project</p>
-    <p>2. CCSIT workshop mangment project</p> -->
+        <p>2. CCSIT workshop mangment project</p>
+        <p>2. CCSIT workshop mangment project</p> -->
+        </section>
     </section>
-</section>
 
-<section id="software" class="software">
-    <h2>Software I used</h2>
-    <section id="software-p">
-        <p>software I used</p>
-<!--        brainstorming and work organization: Notion, trello-->
-<!--        design and prototype: figma, balsamiq, axure-->
-<!--        web programming: atom, sublime, vs code, webstorm, chrome -->
-<!--        mobile programming: android studio -->
+    <section id="software" class="software">
+        <h2>Software I used</h2>
+        <section id="software-p">
+            <p>software I used</p>
+    <!--        brainstorming and work organization: Notion, trello-->
+    <!--        design and prototype: figma, balsamiq, axure-->
+    <!--        web programming: atom, sublime, vs code, webstorm, chrome -->
+    <!--        mobile programming: android studio -->
+        </section>
     </section>
-</section>
 
 <footer>
     <!-- TODO: must be an icon -->
     <!--<a href="mailto:monaaa.saad@yahoo.com">email</a>
     <a href="https://www.linkedin.com/in/mona-alotaibi/">linkedin</a>-->
 </footer>
-</div>
 </body>
 </html>
